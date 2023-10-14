@@ -3,7 +3,6 @@ l1 = list([6, 7, 8, 9, 10])
 l + l1 # Concatenate two lists
 l * 2 # Repeat the list two times
 
-
 # Printing Lists
 print(l)
 
@@ -149,99 +148,3 @@ list_hash = hash(l)  # Get the hash of the list
 # String Representations
 list_repr = repr(l)  # Get the printable representation of the list
 list_str = str(l)  # Get the string representation of the list
-
-
-
-
-
-
-
-
-
-
-
-
-
-print(l)
-l.append(6) # Add an element to the end of the list
-l.sort() # Sort the list
-l.reverse() # Reverse the list
-l.extend(list(l)) # Extend the list by another list
-l.pop() # Remove and return the element from the end of the list
-l.pop(0) # Remove and return the element at the specified index
-l.remove(3) # Remove the first occurrence of the element
-l.count(2)  # Return the number of occurrences of the element
-l.index(2) # Return the index of the first occurrence of the element
-l.insert(0, 10) # Insert the element before the index - insert(index, value)
-l.clear() # Remove all the elements from the list
-l.copy() # Return a shallow copy of the list
-l = list([1, 2, 3, 4, 5])
-l[0] # Access the element at the specified index
-l[1:3] # Access the elements from the start index to the end index
-l[1:] # Access the elements from the start index to the end of the list
-l[:3] # Access the elements from the start of the list to the end index
-l[-1] # Access the last element of the list
-l[-3:] # Access the last three elements of the list
-l[:-2] # Access all the elements of the list except the last two
-l[::2] # Access every second element of the list
-l[::-1] # Access all the elements of the list in reverse order
-l[1] = 10 # Update the element at the specified index
-del l[1] # Delete the element at the specified index
-del l[1:3] # Delete the elements from the start index to the end index
-del l[1:] # Delete the elements from the start index to the end of the list
-del l[:3] # Delete the elements from the start of the list to the end index
-del l[-1] # Delete the last element of the list
-del l[-3:] # Delete the last three elements of the list
-del l[:-2] # Delete all the elements of the list except the last two
-del l[::2] # Delete every second element of the list
-del l[::-1] # Delete all the elements of the list in reverse order
-l = list([1, 2, 3, 4, 5])
-for i in l: # Iterate over the elements of the list
-    print(i)
-for i in range(len(l)): # Iterate over the indices of the list
-    print(l[i])
-for i, v in enumerate(l): # Iterate over the indices and elements of the list
-    print(i, v)
-l = list([1, 2, 3, 4, 5])
-l1 = list([6, 7, 8, 9, 10])
-l + l1 # Concatenate two lists
-l * 2 # Repeat the list two times
-l = list([1, 2, 3, 4, 5])
-1 in l # Check if the element exists in the list
-1 not in l # Check if the element does not exist in the list
-len(l) # Get the number of elements in the list
-max(l) # Get the maximum element of the list
-min(l) # Get the minimum element of the list
-sum(l) # Get the sum of all the elements of the list
-all(l) # Check if all the elements of the list are True
-any(l) # Check if any element of the list is True
-sorted(l) # Return a new sorted list
-list(reversed(l)) # Return a new reversed list
-list(enumerate(l)) # Return a new list of tuples containing the indices and elements of the list
-list(filter(lambda x: x % 2 == 0, l)) # Return a new list of elements that satisfy the condition
-list(map(lambda x: x * 2, l)) # Return a new list of elements after applying the function to each element
-list(zip(l, l1)) # Return a new list of tuples by zipping the lists
-l = list([1, 2, 3, 4, 5])
-l == l1 # Check if the lists are equal
-l != l1 # Check if the lists are not equal
-l < l1 # Check if the list is less than the other list
-l <= l1 # Check if the list is less than or equal to the other list
-l > l1 # Check if the list is greater than the other list
-l >= l1 # Check if the list is greater than or equal to the other list
-hash(l) # Get the hash of the list
-len(l) # Get the number of elements in the list
-repr(l) # Get the printable representation of the list
-str(l) # Get the string representation of the list
-l = list([1, 2, 3, 4, 5])
-l.__add__(l1) # Concatenate two lists
-l.__mul__(2) # Repeat the list two times
-l.__contains__(1) # Check if the element exists in the list
-l.__len__() # Get the number of elements in the list
-l.__getitem__(0) # Access the element at the specified index
-l.__getitem__(slice(1, 3)) # Access the elements from the start index to the end index
-l.__getitem__(slice(1, None)) # Access the elements from the start index to the end of the list
-l.__getitem__(slice(None, 3)) # Access the elements from the start of the list to the end index
-l.__getitem__(slice(-1, None)) # Access the last element of the list
-l.__getitem__(slice(-3, None)) # Access the last three elements of the list
-l.__getitem__(slice(None, -2)) # Access all the elements of the list except the last two
-
