@@ -1,5 +1,5 @@
 # Python-implementations
 
-- [lists](C:\Users\HariRaj.Gandepalli\Desktop\Python-implementations\Data Structures\list.py)
-- [strings](C:\Users\HariRaj.Gandepalli\Desktop\Python-implementations\Data Structures\string.py)
-- [dictionaries](C:\Users\HariRaj.Gandepalli\Desktop\Python-implementations\Data Structures\dictionary.py)
+- [lists](https://github.com/Hariraj1029/Python-implementations/blob/main/Data%20Structures/list.py)
+- [strings](https://github.com/Hariraj1029/Python-implementations/blob/main/Data%20Structures/string.py)
+- [dictionaries](https://github.com/Hariraj1029/Python-implementations/blob/main/Data%20Structures/dictionary.py)
