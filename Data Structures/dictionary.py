@@ -154,3 +154,6 @@ merged_dict = dict1 | dict2
 # Merges two dictionaries into a new one.
 # In case of key conflicts, the values from the second dictionary (dict2) take precedence.
 
+my_list = [3, 1, 2, 3, 4, 2, 5, 6, 4]
+unique_list = list(dict.fromkeys(my_list))
+# Creates a new list with unique elements from the original list. The new list is in the same order as the original list.
